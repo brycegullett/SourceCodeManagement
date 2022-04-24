@@ -1,0 +1,91 @@
+CIS 1202 Programming Assignment #9
+Source Code Management 1
+Write a program that displays the text "Hello, World", check it into a source code management system,
+modify the program, and check in the update.
+You are free to use any distributed source code management system (no centralized systems) and any 
+hosting provider.
+The instructions here will be using the Git source code management system, the GitHub online service, 
+and Visual Studio.  These are commonly used in businesses, so we'll use them here.
+Note that online services and software applications change frequently, so be aware that these screen shots
+ may be out of date.  I'm sure that you'll figure it out.
+For most of this assignment, you'll just be following instructions.  Please take some time to consider 
+why you're doing what you're doing, instead of just blindly following along.
+Requirements
+	
+	•	Sign up for a GitHub account at https://github.com/  There is no cost to use this service.
+
+	•	In Visual Studio, write the "Hello, World" program.
+
+	•	Add this program to a new local git repository.
+	•	Press the "Add to Source Control" button at the bottom of Visual Studio.  Choose "Git".
+	•	Wait a short while; this might take a minute.
+	•	Your source code is now being tracked by Git.  You can revert edits, view history, branch, merge, 
+		and all of those source code management terms.  But, right now, it's all local, meaning it exists 
+		only on your computer.
+
+	•	Upload your project to GitHub.  This is called a "push" in source code management vocabulary.
+	•	Turn on the "Team Explorer" window.
+
+	•	Choose "Publish to GitHub.
+
+	•	Sign in with the name and password you set up in step 1.
+	•	Publish it.  Make sure that the "Private Repository" is not checked.
+
+	•	Switch to GitHub, click into your repository, and see that there's nothing really there!
+
+	•	You created a repository for this program on GitHub, but you haven't included any files yet.  
+		That's why you don't see your program in GitHub.
+	•	Commit your source code.  "Commit" means that your changes are ready to go.  
+		(Don't commit any source until you're sure that it works.)  Files that are not committed won't 
+		be added to the repository.  Switch back to the Solution Explorer, right-click on the source code file, 
+		then choose "Commit...".
+
+	•	Visual Studio will ask for identifying information.  I prefer to keep my contact information 
+		private, so fill this in with bogus information.  Uncheck the global option, just in case you 
+		want to use your real name in the future.
+
+
+	•	Enter a commit message.  This is a short description of the changes that you made to the source 
+		code.  Commit messages are extremely important, as this enables others looking at the repository 
+		to know how a file or program has evolved over time.  Since this is the first commit, let's say so.  
+		Type "First commit" in the text box.
+
+	•	Press the "Commit Staged" button.
+	•	Sync.  This will push this commit to GitHub.
+
+
+	•	Press the "Push" button.
+
+
+
+	•	View your repository online.  Go back to GitHub, and refresh the page.  Click into the folders to 
+		find your source code file.
+
+	•	Edit the source code in your browser on GitHub.  Make the program display "Hello, Universe!"
+
+	•	Scroll down and compose a commit message for this change, then "Commit changes".
+
+
+	•	Back in Visual Studio, let's get the updated source code from GitHub.  This is called a "pull".  
+		Press the "Pull" button.
+
+	•	The changes made in GitHub are now available in Visual Studio.
+
+	•	Let's see the history of this repository.  Press "Actions", then "View History..."
+
+	•	Click on the most recent item in the history, then right-click on the source code file, then 
+		choose "Compare with previous" to see the differences between versions.
+
+
+	•	See the differences side by side.
+
+	•	Make your repository available to your instructor for grading.  Switch back to GitHub and go back 
+		to the root of your repository.
+
+
+
+	•	Choose the green "Code" button, then choose "Use HTTPS", then copy the link to your repository.
+
+	•	Upload this link to the eLearn dropbox.  No screen shots or other documentation are necessary.  
+		Just the link.
+
